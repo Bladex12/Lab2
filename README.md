@@ -33,9 +33,20 @@ Pair copy of the Thursday v3 `Pipeline` notebook (Week 4). We test one candidate
 **Decision: reject.** 0 of 80 validation predictions changed. The feature is an exact linear sum of two
 inputs the logistic regression already has, so it adds no information. Details in notebook Section 12.
 
+## Contributions
+
+| Member | Work |
+|---|---|
+| **Andy Villarroel** | Feature proposal and pre-race availability check (Section 9); `estimated_grid_position` creation with leakage assertions (Section 10); reproducibility runbook and package versions (Section 14); this README. |
+| **Agustín Reyes Pereira** | Controlled with/without comparison, dummy baseline and coefficient check (Section 11); decision and limitations (Section 12); AI recommendation audit (Section 13). |
+
+Both of us reviewed the final notebook after Restart & Run All and agreed on the decision.
+
 ## Setup
 
-Tested with Python 3.14.3, pandas 2.3.1, numpy 1.26.4, scikit-learn 1.8.0 on Windows 11.
+Tested on Windows 11 (Python 3.14.3, pandas 2.3.1, numpy 1.26.4, scikit-learn 1.8.0) and on macOS
+(Python 3.14.6, pandas 3.0.6, numpy 2.5.3, scikit-learn 1.9.1) with the same scores. The saved outputs come
+from the macOS run; with numpy 2 some printed numbers show as `np.float64(...)`, same values.
 Other recent versions should work; scores could differ slightly with a different scikit-learn.
 
 ```bash
