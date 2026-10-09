@@ -3,7 +3,7 @@
 Pair copy of the Thursday v3 `Pipeline` notebook (Week 4). We test one candidate feature,
 `estimated_grid_position = qualifying_position + grid_penalty`, in a controlled with/without comparison.
 
-**Contributors:** Agustín Reyes Pereira · 
+**Contributors:** Agustín Reyes Pereira · Andy Villarroel
 
 > Invented teaching dataset. Results say nothing about real Formula 1 performance.
 
@@ -11,8 +11,7 @@ Pair copy of the Thursday v3 `Pipeline` notebook (Week 4). We test one candidate
 
 | File | Purpose |
 |---|---|
-| `W04_Thu_Pipelines_Pair_v3.ipynb` | Our notebook. Sections 1–8 are the original; Sections 9–14 are the lab work. Saved with outputs from Restart & Run All. |
-| `W04_Thu_Pipelines_Student_v3.ipynb` | Original notebook (unchanged). |
+| `W04_Thu_Pipelines_Pair_v3.ipynb` | Our notebook. Sections 1–8 are the original Week 4 student notebook (unchanged); Sections 9–14 are the lab work. Saved with outputs from Restart & Run All. |
 | `w04_race_weekends_synthetic_v3.csv` | Synthetic data: 18 weeks × 20 drivers = 360 rows. |
 
 ## Split (not changed)
